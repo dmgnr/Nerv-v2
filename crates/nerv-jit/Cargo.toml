@@ -7,7 +7,7 @@ license.workspace = true
 build = "build.rs"
 
 [dependencies]
-llvm-sys = { workspace = true, features = ["no-llvm-linking"] }
+llvm-sys = { workspace = true }
 nerv-runtime = { path = "../nerv-runtime" }
 nerv-sema = { path = "../nerv-sema" }
 
